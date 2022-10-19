@@ -1,0 +1,12 @@
+/*sub02_mx480.css*/
+div.ct02 section .artgroup article{width: 100%;}
+div.ct02 section .artgroup article .text{margin-top: 0;text-align: center;}
+div.ct03 section{display: block;}
+div.ct03 section article{margin-left: 120px;}
+
+div.mnWrap header{display: block;}
+div.mnWrap header nav h2{font-size: 12px;}
+div.ftrWrap footer ul,
+div.ftrWrap footer .text{font-size: 12px;}
+div.ftrWrap footer .text h1 img{width: 80px;}
+div.mnWrap header p{display: none;}

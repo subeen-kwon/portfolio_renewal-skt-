@@ -1,0 +1,15 @@
+/*index_mx480.css*/
+div.mnWrap{background-image: none;height: 150px;}
+div.ct04 section article{height: 80px;margin-left: 10px;}
+div.ct04 section article .text h5{margin-top: 10px;}
+div.ct04 section article .text{padding: 0;}
+div.ct03{height: 850px;}
+div.ct03 section .artgroup article .image{height: 250px;}
+
+div.mnWrap header{display: block;}
+div.mnWrap header nav h2{font-size: 12px;}
+div.ct01 .sect2 .artgroup{display: block;}
+div.ct01 .sect2 .artgroup article{width: 100%;}
+div.ftrWrap footer ul,div.ftrWrap footer .text{font-size: 12px;}
+div.ftrWrap footer .text h1 img{width: 80px;}
+div.ct04 section article .text p,div.mnWrap header p{display: none;};Wrap header p{display: none;};

@@ -1,0 +1,20 @@
+/*sub04_mx480.css*/
+div.ct1 section{display: block;}
+div.ct1 section .image img{width: 100%;margin-top: 20px;}
+div.ct2 section .artGroup{display: block;}
+div.ct2 section .artGroup article{width: 100%;}
+div.ct2 section .artGroup article .image{height: 200px;}
+div.ct2 section .artGroup article .text p{display: none;}
+div.ct2 section .artGroup article .i1{background-position: top;margin-top: -40px;}
+div.ct2 section .artGroup article .i3{background-position: top;margin-top: -20px;}
+div.ct3 section .artGroup .mt80{margin-top: 0;}
+
+
+div.mnWrap header{display: block;}
+div.mnWrap header nav h2{font-size: 12px;}
+div.ftrWrap footer ul,
+div.ftrWrap footer .text{font-size: 12px;}
+div.ftrWrap footer .text h1 img{width: 80px;}
+div.mnWrap header p{
+    display: none;
+}

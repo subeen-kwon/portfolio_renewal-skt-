@@ -1,0 +1,23 @@
+/*sub03_mx480.css*/
+div.ct1 section{display: block;}
+div.ct1 section article{}
+div.ct1 section article:nth-child(1){margin-top: 20px;}
+div.ct1 section article:nth-child(2){margin-top: 0;}
+div.ct1 section article:nth-child(3){margin-top: 0;}
+div.ct1 section article:nth-child(4){margin-top: 0;}
+div.ct1 section article:nth-child(5){margin-top: 0;}
+div.ct1 section article .image{height: 200px;}
+div.ct3 section iframe{height: 300px;}
+
+div.content{padding: 40px 0;}
+div.content header h3{font-size: 24px;}
+div.mnWrap header{display: block;}
+div.mnWrap header nav h2{font-size: 12px;}
+div.ftrWrap footer ul,
+div.ftrWrap footer .text{font-size: 12px;}
+div.ftrWrap footer .text h1 img{width: 80px;}
+div.mnWrap header p{
+    display: none;
+}mnWrap header p{
+    display: none;
+}

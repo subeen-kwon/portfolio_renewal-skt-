@@ -1,0 +1,119 @@
+/*sub04.css*/
+div.mnWrap{border-bottom: 5px solid #f00;}
+div.mnWrap header{
+    width: 90%;max-width: 1080px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+div.mnWrap header h1 img{
+    width: 100px;
+}
+div.mnWrap header nav{
+    display: flex;
+}
+div.mnWrap header nav h2{
+    font-size: 18px;line-height: 40px;color: #000;font-weight: 700;
+    margin-left: 30px;
+}
+div.mnWrap header p{font-size: 12px;font-weight: 700;line-height: 40px;color: #000;}
+div.ct1{color: #000;font-weight: 700;}
+div.ct1 header p{margin-top: 40px;}
+div.ct1 section{
+    display: flex;justify-content: space-around;
+}
+div.ct1 section .textbox .text{
+    box-shadow: 0px 2px 6px rgba(0,0,0,0.8);padding: 20px 40px;
+}
+div.ct1 section .textbox .text:nth-child(2){margin-top: 40px;}
+div.ct1 section .textbox h5{color: #f00;font-size: 14px;line-height: 40px;}
+div.ct1 section .textbox p{color: #333;}
+div.ct1 section .image img{width: 500px;margin-top: -50px;}
+div.ct2 header{color: #000;}
+div.ct2 section .artGroup{
+    display: flex;
+}
+div.ct2 section .artGroup article{
+    width: calc(33.33% - 20px);
+    margin: 0 5px;
+    box-shadow: 0px 2px 10px rgba(0,0,0,0.5);
+    position: relative;
+    overflow: hidden;
+}
+div.ct2 section .artGroup article .image{
+    height: 480px;
+    background-size: cover;background-position: center;
+}
+div.ct2 section .artGroup article .i1{background-image: url(../img/sub04/c2_1.jpg);}
+div.ct2 section .artGroup article .i2{background-image: url(../img/sub04/c2_2.jpg);}
+div.ct2 section .artGroup article .i3{background-image: url(../img/sub04/c2_3.jpg);}
+div.ct2 section .artGroup article .text{
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    background-color: rgba(0,0,0,0.4);
+    position: absolute;
+    height: 480px;
+    transition: top 0.9s;
+}
+div.ct2 section .artGroup article:hover{}
+div.ct2 section .artGroup article:hover>.text{
+    top: 0;width: 100%;
+}
+div.ct2 section .artGroup article .text h5{
+    font-size: 18px;font-weight: 700;
+}
+div.ct2 section .artGroup article .text p{
+    margin-top: 120px;
+}
+div.ct3 header{color: #000;}
+div.ct3 section .artGroup{
+   display: flex;
+    flex-wrap: wrap;
+}
+div.ct3 section .artGroup article{
+    position: relative;
+    overflow: hidden;
+     width: calc(100% / 3 - 20px);
+    margin: 0 10px;margin-top: 40px;
+}
+div.ct3 section .artGroup article .image{
+    height: 280px;background-color: #666;
+    background-size: cover;background-position: center;
+}
+div.ct3 section .artGroup .mt80{
+    margin-top: -80px;
+}
+div.ct3 section .artGroup article .text{
+    padding: 40px 0;position: absolute;
+    text-align: center;margin: auto;top: 0;right: 0;left: 0;
+    color: #fff;font-size: 24px;
+    text-shadow: 1px 2px 6px rgba(0,0,0,0.8);
+}
+div.ct3 section .artGroup article .text .btns{
+    margin: 0 auto;
+    margin-top: 120px;
+    border-radius: 50%;
+}
+div.ct3 section .artGroup article .text .btns button{
+    background-color:rgba(14, 4, 3, 0.4);color: #fff;border: 0;
+}
+div.ct3 section .artGroup article .i1{background-image: url(../img/sub04/c3_1.jpg);}
+div.ct3 section .artGroup article .i2{background-image: url(../img/sub04/c3_2.jpg);}
+div.ct3 section .artGroup article .i3{background-image: url(../img/sub04/c3_3.jpg);}
+div.ct3 section .artGroup article .i4{background-image: url(../img/sub04/c3_4.jpg);}
+div.ct3 section .artGroup article .i5{background-image: url(../img/sub04/c3_5.jpg);}
+div.ct3 section .artGroup article .i6{background-image: url(../img/sub04/c3_6.jpg);}
+div.btn{
+    position: fixed;
+    width: 60px;height: 60px;
+    top: 0;bottom: 0;right: 40px;
+    margin: auto;
+}
+div.btn button{
+    width: 60px;height: 60px;border: 0;
+    border-radius: 20px;
+    background-color: #666;color: #fff;
+    cursor: pointer;
+}

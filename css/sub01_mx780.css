@@ -1,0 +1,17 @@
+/*sub01_mx780.css*/
+div.ct01 .sect01{display:block;}
+div.ct01 .sect01 .artgroup{width: 100%;display: flex;justify-content: space-around;}
+div.ct01 .sect01 .artgroup .text p{font-size: 14px;}
+div.ct01 .sect01 .artbox{width: 100%;display: block;margin-top: 20px;}
+div.ct01 .sect01 .artbox article .i3{margin-top: 0;}
+div.ct01 .sect01 .artbox article .image{width: 100%;}
+div.ct03 section .more{display: block; text-align: center;margin-top: 20px;}
+div.ct03 section .more button{border-radius: 50px;}
+div.ct02{margin-top: 40px;}
+
+div.content{padding: 40px 0;}
+div.mnWrap header nav h2{font-size: 14px;}
+div.content header h3{font-size: 24px;}
+div.ct03 section .artgroup article:nth-child(n+3):nth-child(-n+6),
+div.ct01 .sect02 article:nth-child(3),div.ct01 .sect02,
+div.ct01 .sect01 .artbox article:nth-child(4){display: none;}

@@ -1,0 +1,234 @@
+/*index.css*/
+div.mnWrap{
+    height: 720px;
+    background-position: center;background-size: cover;
+    background-image: url(../img/index/main.jpg);
+}
+div.mnWrap header{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+div.mnWrap header h1 img{
+    width: 100px;
+}
+div.mnWrap header nav{
+    display: flex;
+}
+div.mnWrap header nav h2{
+    font-size: 18px;line-height: 40px;color: #000;font-weight: 700;
+    margin-left: 30px;
+}
+div.mnWrap header nav .m_over{
+        background:linear-gradient(to right, #F00 0%, #F00 100%);
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+    transition: background-size .3s;
+    background-position: right;
+    font-weight: 700;
+}
+div.mnWrap header nav .m_over:hover{
+     background-size: 100% 80%;
+    background-position: left;
+    color: #fff;
+}
+div.mnWrap header nav h2:hover{
+    background-size: 100% 100%;
+}
+div.mnWrap header p{
+    font-size: 12px;font-weight: 700;line-height: 40px;color: #000;
+}
+div.ct01 header h3{
+    line-height: 60px;
+}
+div.ct01 section{}
+div.ct01 .sect1{
+    display: flex;
+    justify-content: space-around;
+}
+div.ct01 .sect1 article{
+    width: calc(20% - 20px);
+    position: relative;
+}
+div.ct01 .sect1 article .progress{
+    width: 200px;
+    margin: 0 auto;
+   display: flex;
+     border-radius: 200px;
+    overflow: hidden;
+}
+div.ct01 .sect1 article .progress ul{
+    width: 50%;overflow: hidden;
+}
+div.ct01 .sect1 article .progress .left li{
+     height: 200px;
+    background-color: #f00;
+    transform: rotate(180deg);
+  width: 100%;
+   transform-origin: right;
+}
+div.ct01 .sect1 article .progress .right li{
+      height: 200px;
+    background-color: #f00;
+      transform: rotate(0deg);
+        transform-origin: right;
+         width: 100%;
+        margin-left: -100%;
+}
+div.ct01 .sect1 article .text{
+   position: absolute;
+    width: 180px;
+    height: 180px;
+     background-color: #fff;
+    border-radius: 200px;
+     text-align: center;
+    margin: auto;top: 0;bottom: 0;left: 0;right: 0;
+     padding-top: 40px;
+}
+div.ct01 .sect1 article .text h5{
+    color: #000;line-height: 20px;
+    text-shadow: 0px 2px 6px rgba(0,0,0,0.4);
+}
+div.ct01 .sect1 article .text p{
+    font-weight: 700;color: #000;
+    margin-top: 20px;
+}
+div.ct01 .sect2 .artgroup{
+    display: flex;
+}
+div.ct01 .sect2 .artgroup article{
+    width: 33.33%;
+}
+div.ct01 .sect2 .artgroup article .image{
+    height: 400px;
+    background-color: #333;
+    background-size: cover;
+    background-position: center;
+}
+div.ct01 .sect2 .artgroup article .i1{background-image: url(../img/index/skt_company.jpg);}
+div.ct01 .sect2 .artgroup article .i2{background-image: url(../img/index/thro.jpg);}
+div.ct01 .sect2 .artgroup article .i3{background-image: url(../img/index/Ai.jpg);}
+div.ct01 .sect2 .artgroup article .text{
+    position: absolute;color: #fff;margin-top: -120px;
+    margin-left: 10px;
+    text-shadow: 0px 2px 6px rgba(0,0,0,0.4);
+}
+div.ct01 .sect2 .artgroup article .image:hover{
+    width: 380px;height: 480px;
+    transition: all 0.5s;
+}
+div.ct02 header h3{color: #000;}
+div.ct02 section{}
+div.ct02 section article{}
+div.ct02 section article dl{
+    display: flex;
+    justify-content: space-around;
+}
+div.ct02 section article dl dt{
+    height: 600px;width: 90px;background-color: #ef8009;
+    text-align: center;color: #fff;font-size: 12px;font-weight: 500;
+    padding-top: 20px;
+}
+div.ct02 section article dl .red{
+    background-color: #e0002a;
+}
+div.ct02 section article dl dd{
+    height: 600px;background-color: #666;
+    transition:width 0.3s; width: 0;
+    background-size: cover;background-position: center;
+}
+div.ct02 section article dl .i1{background-image: url(../img/index/skt_site1.jpg);}
+div.ct02 section article dl .i2{background-image: url(../img/index/skt_site2.png);}
+div.ct02 section article dl .i3{background-image: url(../img/index/skt_site3.jpg);}
+div.ct02 section article .opened+dd{
+    width: 790px;
+}
+
+div.ct03{
+    background-color: #1d1160;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/index/main22.jpg);
+     background-attachment: fixed;
+    height: 1500px;
+}
+div.ct03 header{color: #fff;}
+div.ct03 header p{line-height: 40px;}
+div.ct03 section .artgroup{
+    display: flex;
+    justify-content: space-around;
+}
+div.ct03 section .artgroup article{
+    width: calc(33.33% - 20px);
+    margin-top: 40px;
+    position: relative;
+}
+div.ct03 section .artgroup article:nth-child(2){
+    margin-top: -40px;
+}
+div.ct03 section .artgroup article .image{
+    height: 360px;background-color: #666;
+    background-size: cover;background-position: left;
+}
+div.ct03 section .artgroup article .i1{background-image: url(../img/index/pipeline.jpg);
+background-position: center;}
+div.ct03 section .artgroup article .i2{background-image: url(../img/index/pipeline2.jpg);}
+div.ct03 section .artgroup article .i3{background-image: url(../img/index/pipeline3.jpg);}
+div.ct03 section .artgroup article .text{
+    color: #fff;position: absolute;top: 50px;
+    left: 20px;background-color: rgba(0,0,0,0.4);
+}
+div.ct03 section .artgroup article .text h5{
+    font-size: 18px;font-weight: 500;
+}
+div.ct03 section .artgroup article .text .btns button{
+    color: #fff;text-align: left;font-size: 18px;
+    background-color: transparent;border: 0;
+}
+div.ct03 section .artgroup article .text .btn button i{margin-left: 10px;font-size: 24px;}
+div.ct03 section .i4{
+    height: 680px;background-color: #333;width: 100%;
+}
+.map{
+    margin-top: -760px;
+    width: 100%;
+}
+div.ct04{
+    padding: 0;padding-top: 80px;
+}
+div.ct04 section{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0px;
+    background-image: url(../img/index/sk_pic.jpg);
+    background-size: cover;background-position: center;
+    opacity: 0.4;
+    background-attachment: fixed;
+}
+div.ct04 section article{
+    height: 240px;width: 250px;
+    border: 5px solid #fff;
+    border-radius: 40px;
+}
+div.ct04 section article .text{
+    color: #fff;padding: 40px 0;
+    text-align: center;
+}
+div.ct04 section article .text p{
+    margin-top: 80px;
+}
+div.btn{
+    position: fixed;
+    width: 60px;height: 60px;
+    top: 0;bottom: 0;right: 40px;
+    margin: auto;
+}
+div.btn button{
+    width: 60px;height: 60px;border: 0;
+    border-radius: 20px;
+    background-color: #666;color: #fff;
+    cursor: pointer;
+}

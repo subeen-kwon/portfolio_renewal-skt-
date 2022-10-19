@@ -1,0 +1,11 @@
+/*sub02_mx780.css*/
+div.content{padding: 40px 0;}
+div.mnWrap header nav h2{font-size: 14px;}
+div.content header h3{font-size: 24px;}
+div.ct01 section .text{width: 100%;}
+div.ct02 section .artgroup article{width: 100%;text-align: center;}
+div.ct02 section .artgroup article img{width: 100px;margin-top: 10px;}
+div.ct02 section .artgroup article .text{margin-top: 0;text-align: center;}
+
+div.ct01 section .image,div.ct02 section article .texts,
+.pic{display: none;}

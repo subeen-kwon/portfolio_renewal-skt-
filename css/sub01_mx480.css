@@ -1,0 +1,12 @@
+/*sub01_mx480.css*/
+div.ct01 .sect01 .artgroup .image img{width: 50px;}
+div.ct01 .sect02 article .i1,div.ct01 .sect02 article .i2{width: 200px;}
+div.ct03 section .artgroup article{width: 50%;margin-left: 0;}
+
+div.mnWrap header{display: block;}
+div.mnWrap header nav h2{font-size: 12px;}
+div.ftrWrap footer ul,div.ftrWrap footer .text{font-size: 12px;}
+div.ftrWrap footer .text h1 img{width: 80px;}
+div.ct01 .sect01 .artgroup .text button,
+div.mnWrap header p{display: none;}
+div.ct01{padding: 0; overflow: hidden;}
